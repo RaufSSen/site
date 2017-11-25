@@ -1,0 +1,27 @@
+body{
+	background-color:black;
+	animation:image 10s infinite alternate;
+	-webkit-animation:image 10s infinite alternate;
+	-moz-animation:image 10s infinite alternate;
+}
+@keyframes image{
+	0%{
+		background-color:red;
+	}
+
+	25%{
+		background-color:blue;
+	}
+
+	50%{
+		background-color:yellow;
+	}
+
+	75%{
+		background-color:green;
+	}
+
+	100%{
+		background-color:pink;
+	}
+}
